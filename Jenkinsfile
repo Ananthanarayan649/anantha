@@ -28,5 +28,10 @@ pipeline {
                 sh 'echo "this is stage 5"'
             }
         }
+        stage(stage6) {
+            steps {
+                sh 'echo "this is stage 6"'
+            }
+        }
     } 
 }
